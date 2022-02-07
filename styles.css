@@ -1,0 +1,27 @@
+*,
+*::after
+*::before
+.body
+ 
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container div {
+    padding: 20px;
+    flex-basis: 30%;
+
+}
+.container .child1 {background: black;}
+.container .child2 {background: black;}
+.container .child3 {background: black;}
+p {color: white;font-size: 20px;}
+h2{color: white;}
+
